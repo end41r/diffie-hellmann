@@ -5,6 +5,7 @@
 
 // init prime numbers list (could later change to a fixed list of primes)
 int gen_primes(int primes[1000]);
+int print_primes();
 
 // helpers for primitive root
 int is_prime(int n);
