@@ -1,5 +1,5 @@
 #include <math.h>
-
+#include <stdio.h>
 int is_prime(int n)
 {
     if (n < 2) return 0;
@@ -76,4 +76,15 @@ int find_primitive_root_modulo(int n)
     if (g == -1) return -1;
     else return g;
 
+}
+
+int print_primes()
+{
+    int primes[1000];
+    gen_primes(primes);
+
+    for (int i = 0; i < 1000; i++)
+    {
+        printf("%d\t| %d\n", primes[i], find_primitive_root_modulo(primes[i]));
+    }
 }
