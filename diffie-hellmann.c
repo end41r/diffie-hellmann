@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdio.h>
+
 int is_prime(int n)
 {
     if (n < 2) return 0;
@@ -79,6 +80,8 @@ int find_primitive_root_modulo(int n)
 }
 
 int print_primes()
+// (for debugging)
+// always generates the same set of primes
 {
     int primes[1000];
     gen_primes(primes);
