@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdio.h>
+#include "diffie-hellmann.h"
 
 int is_prime(int n)
 {
