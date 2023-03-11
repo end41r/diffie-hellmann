@@ -1,7 +1,8 @@
-#include "diffy-hellmann.h"
+#include "diffie_hellmann.h"
 #include "stdlib.h"
 #include "stdio.h"
 #include "time.h"
+
 int main()
 {
     srand(time(NULL)); // seed rand()
