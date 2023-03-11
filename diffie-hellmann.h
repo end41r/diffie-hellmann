@@ -1,9 +1,9 @@
-#ifndef DIFFY_HELLMANN__H
-#define DIFFY_HELLMANN__H
+#ifndef DIFFIE_HELLMANN__H
+#define DIFFIE_HELLMANN__H
 
 #include <math.h>
 
-// init prime numbers list (could later change to a fixed list of primes)
+// init prime numbers list (could later change to a txt with a fixed set of primes)
 int gen_primes(int primes[1000]);
 int print_primes();
 
@@ -15,4 +15,4 @@ int power_mod(int base, int exp, int mod);
 int primitive_root(int n);
 int find_primitive_root_modulo(int n);
 
-#endif // DIFFY_HELLMANN__H
+#endif // DIFFIE_HELLMANN__H
